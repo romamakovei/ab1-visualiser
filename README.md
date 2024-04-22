@@ -4,14 +4,17 @@ AB1 Visualiser is a Python program designed to visualize chromatogram data obtai
 
 ## Installation & Getting Started
 Python 3.11 must be already installed.
-
-1. Create and activate virtual environment:
+1. If you don't have an archive with the project, you can download it from GitHub:
+   ```shell
+   git clone https://github.com/romamakovei/ab1-visualiser.git
+   ```
+2. Create and activate virtual environment:
    ```shell
    python -m venv venv # Or python3 -m venv venv for some operating systems
    venv\Scripts\activate # For Windows
    source venv/bin/activate # For Linux, MacOS
    ```
-2. Install the necessary libraries:
+3. Install the necessary libraries:
    ```shell
    pip install biopython
    pip install matplotlib
